@@ -1,6 +1,8 @@
 import logo from './logo.svg';
+import { inject } from '@vercel/analytics';
 import './App.css';
 
+inject();
 function App() {
   return (
     <div className="App">
